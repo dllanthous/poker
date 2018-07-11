@@ -29,10 +29,12 @@ font-size: 5vw;
 margin-right: 3%;
 margin-top: -1%;
 float: right;
+text-shadow: 0 0 1em #FFF, 0 0 0.2em #FFF;
 }
 ul.menu
 {
 	margin: 0px;
+	margin-bottom: 0.5vw;
 }
 ul.menu, ul.menu ul{
 	list-style-type: none;
@@ -67,124 +69,362 @@ ul.menu li ~ li
 {
 margin-top:-0.2vw;
 }
+
+div{
+margin: 0;
+background-color: #0004;
+height: 50vw;
+color: white;
+text-shadow: 0 0 1em black, 0 0 0.2em black;
+font-size:2vw;
+}
+#top
+{
+	height: 22vw;
+	margin-bottom: 2vw;
+
+}
+#main{
+height: 22vw;
+width: 50vw;
+background: url('http://educarimoveis.com.br/wp-content/uploads/2016/06/hotel.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+float: right;
+}
+#under
+{
+	height: 5vw;
+	background: none;
+	line-height: 5vw;
+	color: red;
+	text-align: center;
+}
+div.title
+{
+	height: 5vw;
+	text-align: center;
+	font-weight: bolder;
+	font-size:3.3vw;
+	text-indent: 0;
+}
+div.stitle
+{
+	height: 5vw;
+	text-align: center;
+	font-size:3vw;
+	text-indent: 0;
+}
+div.ntitle
+{
+	height: 5vw;
+	font-size:2vw;
+}
+article
+{
+	border: solid 0.1vw;
+}
+article div
+{
+	text-indent: 2.5vw;
+}
+#botao
+{
+	height: 2.5vw;
+	text-indent: 0.4vw;
+	width: 2.5vw;
+	line-height: 2.9vw;
+	position: fixed;
+	background: grey;
+	top: 47vw;
+	border-radius: 50%;
+	border: solid 0.1vw black;
+	text-decoration: none;
+}
 </style>
 </head>
 
 <body>
 <h1>Hotel Beira-Mar</h1>
 
-<ul class="menu">
-	<li><a href="https://www.youtube.com/watch?v=8mVbdjec0pA">Home</a>
+<ul class="menu" id="link">
+	<li><a href="#hom">Home</a>
 		<ul>
-			<li><a href="https://www.mercadolivre.com.br">Venda</a>
+			<li><a href="#ven">Venda</a>
 				<ul>
-					<li><a href="http://www.mcdonalds.com.br/">Alimentos</a></li> 
-					<li><a href="https://minhacasa.abril.com.br/decoracao/12-quartos-de-casal-pequenos-com-decor-elegante/">Quartos</a></li> 
-					<li><a href="http://www.novonegocio.com.br/ideias-de-negocios/loja-de-souvenirs/">Souvenirs</a></li>
+					<li><a href="#ali">Alimentos</a></li> 
+					<li><a href="#qua">Quartos</a></li> 
+					<li><a href="#sou">Souvenirs</a></li>
 				</ul>
 			</li> 
-			<li><a href="https://www.vivareal.com.br/aluguel">Aluguel</a>
+			<li><a href="#alu">Aluguel</a>
 				<ul>
-					<li><a href="https://www.zapimoveis.com.br/venda/casas/">Casas</a></li> 
-					<li><a href="https://www.vivareal.com.br/imovel/apartamento-2-quartos-niteroi-bairros-canoas-com-garagem-62m2-venda-RS320000-id-1038191940/?__vt=spb:a">Apartamentos</a></li> 
-					<li><a href="https://www.rentalcars.com/">Carros</a></li> 
+					<li><a href="#cas">Casas</a></li> 
+					<li><a href="#apa">Apartamentos</a></li> 
+					<li><a href="#car">Carros</a></li> 
 				</ul>
 			</li> 
-			<li><a href="https://www.simplic.com.br/ppc/emprestimo?utm_source=google&utm_medium=g&utm_campaign=286524439&utm_adgroup=19567431079&utm_matchtype=p&utm_keyword=emprestimo&utm_device=c&utm_content=210599625750&utm_position=1t1&gclid=EAIaIQobChMIsYqP5OWV3AIVkjqBCh0PwgSBEAAYASAAEgLNzvD_BwE">Empr�stimo</a>
+			<li><a href="#emp">Empréstimo</a>
 				<ul>
-					<li><a href="http://www.masterlimp.net/">Mat. Limpeza</a></li> 
-					<li><a href="https://www.casadopapel.com.br/">Mat. Escrit�rio</a></li> 
+					<li><a href="#mdl">Mat. Limpeza</a></li> 
+					<li><a href="#mde">Mat. Escritório</a></li> 
 				</ul>
 			</li> 
 		</ul>
 	</li>
-	<li><a href="https://www.sinonimos.com.br/sobre/">Sobre</a>
+	<li><a href="#sob">Sobre</a>
 		<ul>
-			<li><a href="https://www.sinonimos.com.br/fundador/">Fundadores</a>
+			<li><a href="#fun">Fundadores</a>
 				<ul>
-					<li><a href="https://www.michaeljackson.com/">Michael Jackson</a></li> 
-					<li><a href="https://pt.wikipedia.org/wiki/Nego_do_Borel">MC Nego do Borel</a></li> 
+					<li><a href="#mic">Michael Jackson</a></li> 
+					<li><a href="#mcn">MC Nego do Borel</a></li> 
 				</ul>
 			</li>
-			<li><a href="https://www.sinonimos.com.br/inauguracao/">Inagura��o</a>
+			<li><a href="#ina">Inaguração</a>
 				<ul>
-					<li><a href="http://www.canoasshopping.com.br/">Canoas</a></li> 
-					<li><a href="https://pt.wikipedia.org/wiki/Taiwan">Taiwan</a></li> 
+					<li><a href="#can">Canoas</a></li> 
+					<li><a href="#tai">Taiwan</a></li> 
 				</ul>
 			</li>
-			<li><a href="http://www.administradores.com.br/noticias/tecnologia/5-inovacoes-tecnologicas-que-devem-ganhar-destaque-em-2018/123682/">Inova��es</a>
+			<li><a href="#ino">Inovações</a>
 				<ul>
-					<li><a href="http://www.playpark.com.br/categoria-de-produto/pula-pula-inflaveis/">Pula-Pula</a></li> 
-					<li><a href="https://spamed.com.br/?gclid=EAIaIQobChMIr561jueV3AIVVTaBCh2FyA7oEAAYAiAAEgLfo_D_BwE">SPA</a></li> 
+					<li><a href="#pul">Pula-Pula</a></li> 
+					<li><a href="#spa">SPA</a></li> 
 				</ul>
 			</li>
 		</ul>
 	</li>
-	<li><a href="https://www.viallure.com.br/brasil/lentes-de-contato">Contato</a>
+	<li><a href="#con">Contato</a>
 		<ul>
-			<li><a href="https://www.kabum.com.br/celular-telefone/telefones">Telefone</a>
+			<li><a href="#tel">Telefone</a>
 				<ul>
-					<li><a href="https://www.claro.com.br/nao-cliente">Claro</a></li> 
-					<li><a href="http://www.oi.com.br/minha-oi/">Oi</a></li>
-					<li><a href="https://www.vivo.com.br/portalweb/appmanager/env/web#">Vivo</a></li> 
+					<li><a href="#cla">Claro</a></li> 
+					<li><a href="#oi">Oi</a></li>
+					<li><a href="#viv">Vivo</a></li> 
 				</ul>
 			</li>
-			<li><a href="https://www.whatsapp.com/?lang=pt_br">Whatsapp</a>
+			<li><a href="#zap">Whatsapp</a>
 				<ul>
-					<li><a href="https://web.whatsapp.com/">Pessoal</a></li> 
-					<li><a href="https://www.whatsapp.com/business/">Empresa</a></li>
+					<li><a href="zapp">Pessoal</a></li> 
+					<li><a href="zape">Empresa</a></li>
 				</ul>
 			</li>
-			<li><a href="https://webmail.hostinger.com.br/auth">Email</a>
+			<li><a href="#ema">Email</a>
 				<ul>
-					<li><a href="https://www.google.com/gmail/">Gmail</a></li> 
-					<li><a href="https://br.yahoo.com/">Yahoo</a></li>
+					<li><a href="#gma">Gmail</a></li> 
+					<li><a href="#yah">Yahoo</a></li>
 				</ul>
 			</li>
 		</ul>
 	</li>
-	<li><a href="https://blog.deskmanager.com.br/bom-atendimento-ao-cliente/">Atendimento</a>
+	<li><a href="#ava">Avaliação</a>
 		<ul>
-			<li><a href="http://www.procon.rs.gov.br/inicial">Reclama��es</a>
+			<li><a href="#rec">Reclamações</a>
 				<ul>
-					<li><a href="https://blog.deskmanager.com.br/bom-atendimento-ao-cliente/">Atendimento</a></li>
-					<li><a href="https://www.ifood.com.br/delivery/canoas-rs/">Comida</a></li>
-					<li><a href="https://en.wikipedia.org/wiki/Template:1/4">Quartos</a></li>
+					<li><a href="#ate">Atendimento</a></li>
+					<li><a href="#co">Comida</a></li>
+					<li><a href="#qu">Quartos</a></li>
 				</ul>
 			</li>
-			<li><a href="https://www.mundodasmensagens.com/mensagens-agradecimento/">Agradecimentos</a>
+			<li><a href="#agr">Agradecimentos</a>
 				<ul>
-					<li><a href="http://ortobomodontologia.com.br/wp-content/uploads/2016/11/atendente-900X9002.png">Atendentes</a></li>
-					<li><a href="https://previews.123rf.com/images/alexraths/alexraths1201/alexraths120100010/12027059-chef-presenting-isolated-on-white-background.jpg">Chefs</a></li>
-					<li><a href="https://blumpa.com/blog/saude-da-dele-e-produtos-de-limpeza/">Limpeza</a></li>
+					<li><a href="#at">Atendentes</a></li>
+					<li><a href="#che">Chefs</a></li>
+					<li><a href="#lim">Limpeza</a></li>
 				</ul>
 			</li>
-			<li><a href="https://pt.wikipedia.org/wiki/Cr%C3%ADtica">Cr�ticas</a>
+			<li><a href="#cr">Críticas</a>
 				<ul>
-					<li><a href="https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o">Organiza��o</a></li>
-					<li><a href="https://pt.wikipedia.org/wiki/Estrutura">Estrutura</a></li>
-					<li><a href="https://pt.wikipedia.org/wiki/Sistema">Sistemas</a></li>
+					<li><a href="#org">Organização</a></li>
+					<li><a href="#est">Estrutura</a></li>
+					<li><a href="#sis">Sistemas</a></li>
 				</ul>
 			</li>
 		</ul>
 	</li>
-	<li><a href="https://noticias.uol.com.br/">Not�cias</a>
+	<li><a href="#not">Notícias</a>
 		<ul>
-			<li><a href="https://www.frasesdobem.com.br/frases-de-elogio">Elogios</a>
+			<li><a href="#elo">Elogios</a>
 				<ul>
-					<li><a href="https://www.nytimes.com/">NYT</a></li>
-					<li><a href="https://www.vercapas.com.br/capa/diario-gaucho.html">Di�rio Ga�cho</a></li>
+					<li><a href="#nyt">NYT</a></li>
+					<li><a href="#dg">Diário Gaúcho</a></li>
 				</ul>
 			</li>
-			<li><a href="https://pt.wikipedia.org/wiki/Cr%C3%ADtica">Cr�ticas</a>
+			<li><a href="#c">Críticas</a>
 				<ul>
-					<li><a href="https://jornalistaslivres.org/tag/midia-ninja/">M�dia Ninja</a></li>
-					<li><a href="https://www.gazetadopovo.com.br/">Gazeta do Povo</a></li>
+					<li><a href="#mn">Mídia Ninja</a></li>
+					<li><a href="#gdp">Gazeta do Povo</a></li>
 				</ul>
 			</li>
 		</ul>
 	</li>
 </ul>
+<div id="main"> </div>
+<div id="top"> </div>
+<div id="under">Mais informações</div>
 
+<article>
+<div class="title" id="hom">Home</div>
+<div class="stitle" id="ven">Venda</div>
+<div class="ntitle" id="ali">Alimentos</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="qua">Quartos</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="sou">Souvenirs</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="alu">Aluguel</div>
+<div class="ntitle" id="cas">Casas</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="apa">Apartamentos</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="car">Carros</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="emp">Empréstimo</div>
+<div class="ntitle" id="mdl">Material de Limpeza</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="mde">Material de Escritório</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+
+<div class="title" id="sob">Sobre</div>
+<div class="stitle" id="fam">Famosos</div>
+<div class="ntitle" id="mic">Michael Jackson</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="mcn">MC Nego do Borel</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="ina">Inauguração</div>
+<div class="ntitle" id="can">Canoas</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="tai">Taiwan</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="ino">Inovações</div>
+<div class="ntitle" id="pul">Pula-Pula</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="spa">Spa</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+
+<div class="title" id="con">Contato</div>
+<div class="stitle" id="tel">Telefone</div>
+<div class="ntitle" id="cla">Claro</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="oi">Oi</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="viv">Vivo</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="zap">Whatsapp</div>
+<div class="ntitle" id="zapp">Pessoal</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="zape">Empresa</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+
+<div class="stitle" id="ema">Email</div>
+<div class="ntitle" id="gma">Gmail</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="yah">Yahoo</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+
+<div class="title" id="ava">Avaliação</div>
+<div class="stitle" id="rec">Reclamações</div>
+<div class="ntitle" id="ate">Atendimento</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="co">Comida</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="qu">Quartos</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="agr">Agradecimentos</div>
+<div class="ntitle" id="at">Atendentes</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="che">Chefs</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="lim">Limpeza</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="cr">Críticas</div>
+<div class="ntitle" id="org">Organização</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="est">Estrutura</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="sis">Sistemas</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+
+<div class="title" id="not">Notícias</div>
+<div class="stitle" id="elo">Elogios</div>
+<div class="ntitle" id="nyt">New York Times</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="dg">Diário Gaúcho</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="stitle" id="c">Críticas</div>
+<div class="ntitle" id="mn">Mídia Ninja</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+<div class="ntitle" id="gdp">Gazeta do Povo</div>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor non tortor rhoncus ullamcorper a sed lorem. Donec at mauris venenatis, eleifend mi at, condimentum mauris. Nunc porttitor elementum est eget condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non cursus purus. Cras sit amet lobortis nisl, nec aliquet nulla. Maecenas rhoncus non quam quis sodales. Nulla placerat lacus vel dolor congue imperdiet. Pellentesque sed luctus nisi.
+
+Integer ac orci turpis. Proin vel tempus nunc, non porttitor lacus. Donec id lorem pharetra lacus mattis lobortis. Sed neque augue, pharetra eu mauris eget, congue aliquam arcu. Nullam odio metus, sodales sed sollicitudin sed, volutpat vitae sem. Nulla mi massa, ullamcorper quis sollicitudin in, rhoncus et nibh. Donec erat turpis, placerat in iaculis nec, malesuada at erat. Vestibulum congue tristique tortor. Pellentesque rhoncus, ligula eget ornare volutpat, eros ex semper ex, quis ullamcorper turpis nibh eu ante. Maecenas hendrerit scelerisque sapien, sed imperdiet quam convallis at. Phasellus sit amet ex non justo interdum placerat quis sed quam. Praesent erat arcu, porta sed semper eget, volutpat quis lacus. Pellentesque eget odio auctor, efficitur tellus vel, interdum arcu.</div>
+</article>
+<div id="botao" id=""><a href="#link">^</a></div>
 </body>
 </html>
